@@ -1,0 +1,11 @@
+# Default owners for everything in the repo. Review from an owner is required
+# before merge (enforced via branch protection).
+*                       @namangoyal-work
+
+# The model core and its tests deserve the closest review.
+/src/userating/         @namangoyal-work
+/tests/                 @namangoyal-work
+
+# The frozen course submission is historical -- changes here should be rejected,
+# not reviewed. See CONTRIBUTING.md.
+/2024EE30913/           @namangoyal-work
