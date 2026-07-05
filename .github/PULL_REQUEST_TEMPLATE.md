@@ -19,4 +19,4 @@
 
 - [ ] no data files, model files, or notebooks-with-output added to git
 - [ ] `2024EE30913/` untouched (frozen course submission)
-- [ ] AI-assisted portions labeled per DESIGN_RATIONALE.md attribution policy
+
