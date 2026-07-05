@@ -1,0 +1,27 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# notebooks
+.ipynb_checkpoints/
+
+# models & outputs
+*.pkl
+trained_model*
+output*.csv
+
+# tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/

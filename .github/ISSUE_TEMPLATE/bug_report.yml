@@ -1,0 +1,32 @@
+name: Bug report
+description: Something behaves incorrectly
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Security problem? **Stop** — do not file it here. See [SECURITY.md](../../SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you run, what did you expect, what did you get?
+      placeholder: |
+        $ userating train data/train.csv model.pkl
+        ...traceback or wrong output...
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: Smallest input/command that shows the problem. A 3-line CSV beats a 150k-row one.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / environment
+      placeholder: "userating 1.0.0, Python 3.12, macOS 15"
+    validations:
+      required: true

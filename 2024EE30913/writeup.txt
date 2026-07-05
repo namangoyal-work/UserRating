@@ -1,0 +1,7 @@
+Overview:
+After feature extraction (Tokenization, PoS tagging, negation, stopword/punctuation removal, lemmatization), The code stacks four models: 3 logistic regression classifiers (one for unigrams, one for bigrams and one for balanced unigrams) and one wordwise sentiment classifier (as shown in the sentiment analysis slides). The stacked log probabilities are then fitted with a XGBoost tree.
+
+The 5-fold cross validated scores are as follows:
+  f1micro = 0.7036
+  f1macro = 0.3812
+  f1avg   = 0.5424
